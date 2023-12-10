@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+body {
+color: indigo;
+background-color: cyan;
+text-align: center;
+}
+h1 {
+    color: blue;
+    background-color: gold;
+    border: 3px groove blueviolet;
+    }
+nav{
+background-color:springgreen;
+}
+#a1 {
+font-family: 'Great Vibes', cursive;
+color: orange;
+font-size: 50px;
+text-shadow: 1px 3px 2px gold;
+margin: 10px;
+}
+#a2 {
+color: plum;
+text-shadow: 1px 3px 2px chartreuse;
+font-size: 18px;
+margin: 10px;
+}
+#a2:hover {
+color: navajowhite;
+}
+#a3 {
+color: blue;
+text-shadow: 1px 3px 2px goldenrod;
+font-size: 18px;
+margin: 10px;
+}
+#a3:hover {
+color: navy;
+}
+#a4 {
+color: darkblue;
+text-shadow: 1px 3px 2px turquoise;
+font-size: 18px;
+margin: 10px;
+}
+#a4:hover {
+color: forestgreen;
+}
+#b1{
+color:rgb(148,0,211);
+word-spacing:5px;
+text-align:center;
+background-color:rgb(0,191,255);
+border:3px groove crimson;
+font-size:17px;
+font-family:fantasy;
+}
+h3{
+color:red;
+background-color:indigo;
+border:3px groove yellow;
+}
+#unique{
+margin-left: 20px;
+margin-right: 20px;
+}
+#b2{
+color:blue;
+background-color:yellow;
+border:3px groove red
+}
+#b3{
+text-align:left;
+color:blueviolet;
+background-color:springgreen;
+border:3px groove purple;
+margin:10px;
+}
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pie-wrap{
+    border: 2px solid lightgrey;
+    width: 400px;
+    height: 400px;
+    margin: 10% 50px;
+    position: relative;
+    border-radius: 50%;
+    color: black;
+}
+.pie-wrap .entry{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sky-blue{
+    background-color: lightskyblue;
+    height:50%;
+    width: 50%;
+    display: block;
+}
+.light-yellow{
+    background-color: lightyellow;
+    height:50%;
+    width: 50%;
+}
+.green{
+    background-color: limegreen;
+    height:50%;
+    width: 50%;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    clip-path:polygon(0% 0%, 100% 0%, 100% 100%);
+}
+.pink{
+    background-color: pink;
+    height:50%;
+    position: absolute;
+    top: 0px;
+    right: 0;
+    width: 50%;
+    clip-path: polygon(0 0, 100% 0%, 0% 100%);
+}
+.purple{
+    background-color: purple;
+    height:50%;
+    width: 50%;
+    right: 0;
+    top: 0;
+    position: absolute;
+    clip-path:polygon(0% 100%, 100% 0%, 100% 100%);
+}
+.wheat{
+    background-color: wheat;
+    height:50%;
+    width: 50%;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    clip-path:polygon(0% 0%, 100% 100%, 0% 100%);
+}
+.pie-wrap .purple p{
+    position: absolute;
+    top: 140px;
+    color: white;
+}
+.pie-wrap .purple p:first-child{
+    top: 120px;
+}
+.pie-wrap .green p{
+    position: absolute;
+    top: 20px;
+}
+.pie-wrap .green p:first-child{
+    top: 0px;
+}
+.pie-wrap .pink p, .pie-wrap .wheat p{
+    position: absolute;
+    left: 20px;
+    top: 80px;
+}
+.pie-wrap .pink, .pie-wrap .wheat{
+    justify-content: flex-start;
+}
+.pie-wrap .pink p:first-child, .pie-wrap .wheat p:first-child{
+    top: 100px;
+}
+.pie-wrap{
+    border: 2px solid lightgrey;
+    width: 400px;
+    height: 400px;
+    margin: 10% 50px;
+    position: relative;
+    border-radius: 50%;
+    color: black;
+    overflow: hidden;
+}
+.entry .entry-value{
+    display: none;
+    transition: all 500ms linear;
+}
+.entry:hover .entry-value{
+    display: block;
+}
+.entry{
+    transition: all 500ms linear ;
+}
+.entry:hover{
+    filter: invert();
+}
+.founder{
+color:crimson;
+font-family:cartoon;
+}
+.phone-number{
+color:cyan;
+background:linear-gradient(to right,red,orange,yellow,green,blue,purple,pink,brown);
+font-size:20px;
+}
